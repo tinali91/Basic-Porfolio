@@ -8,13 +8,29 @@
     box-sizing: border-box
 }
 
+body {
+    background-image: url(../images/full-bloom.png)
+}
+
 header {
     background: #fff;
     border-color: #ccc;
+    padding: 0;
+    margin: 0;
+    border: 2px;
 }
 
-body {
-    background-image: url(../images/full-bloom.png)
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p, li, footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #777;
 }
 
 .content {
@@ -24,26 +40,21 @@ body {
     background: #fff;
 }
 
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
+.box1 {
+    background-color: #4aaaa5;
     width: 250px;
     height: 80px;
-    background: #4aaaa5;
-    font-size: 24px;
-    padding-top: 30px;
-    float: left;
 }
 
-h2, {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h1 {
+    color: #fff;
+    float: left;
+    padding: 25px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 25px 0;
     background-color: #fff;
     float: right;
 }
@@ -53,27 +64,53 @@ li {
 }
 
 li a {
-    display: block;
     color:#777;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #4aaaa5;
+h2 {
+    color: #4aaaa5;
+    text-align: left;
+    padding: 10px 0;
 }
 
-img {
-    width: 15%;
+hr {
+    margin: 15px 0;
+}
+
+.container {
+    width: 960px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#main-content {
+    margin: 0 auto;
+}
+
+.headshot {
+    width: 20%;
     height: auto;
     float: left;
-    margin-right: 20px;
+    margin: 0 15px 15px 0;
 }
 
-footer {
+p {
+    padding: 
+}
+
+.footer {
     background: #666;
     text-align: center;
-    color: #777;
-    padding: 15px 0;
+    color: #fff;
+    padding: 20px 0 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px #4aaaa5;
+    font-size: 12px;
 }
